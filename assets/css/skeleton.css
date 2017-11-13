@@ -1,7 +1,7 @@
 html, body {
-  background-color: #000000;
+  background-color: #FBF3E3;
   margin: 0;
-  font-family: 'Catamaran', Helvetica, sans-serif;
+  font-family: 'Montserrat', Helvetica, sans-serif;
 
 }
 
@@ -166,25 +166,25 @@ nav {
 }
 
 .container-nav {
-  border-top: 2px solid #333333;
+  border-bottom: 2px solid #E85A4F;
 }
 
 .cs-nav {
-  background-color: black;
+  background-color: #FBF3E3;
   display: block;
   position: fixed;
   z-index: 1000;
   width: 100%;
   height: auto;
   top: 0;
-  box-shadow: 0 5px 22px rgba(0,0,0,.4);
+  /*box-shadow: 0 5px 22px rgba(0,0,0,.4);*/
 }
 
 .cs-nav ul {
   padding: 20px 0;
   margin: auto;
   height: auto;
-  color: #dbdbd5;
+  color: #333;
   list-style-type: none;
   font-size: 14px;
   font-weight: 700;
@@ -197,7 +197,6 @@ nav {
   float: left;
   display: inline-block;
   height: auto;
-  padding-top: 15px;
   margin-left: 46px;
   text-align: right;
   float: right;
@@ -212,14 +211,14 @@ nav {
 }
 
 .nav-hover li:hover {
-  border-bottom: 3px solid #e0be4f;
-  color: #e0be4f;
-  padding-bottom: 2px;
+  border-bottom: 3px solid #E85A4F;
+  /*padding-bottom: 2px;*/
+  transition: all 170ms;
 }
 
 #nav-logo {
-  height: 43px;
-  width: 43px;
+  height: 20px;
+  width: 23px;
   padding-top: 0;
   margin-left: 0;
   float: left;
@@ -229,6 +228,7 @@ nav {
   margin-left: 18px;
   text-align: left;
   float: left;
+  font-weight: 400;
 }
 
 #nav-logo #nav-logo-name:nohover {
@@ -296,7 +296,6 @@ nav {
 @media(max-width: 1024px) {
   .navbar, .navbar-pages {
     position: fixed;
-    border-bottom: 2px solid #333333;
   }
   .container-nav {
     top: 0;
@@ -346,10 +345,9 @@ nav {
 }
 
 .cs-summary h1, h2 {
-  font-size: 70px;
-  font-weight: 100;
-  color: white;
-  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #333;
   margin: 0;
   padding: 0;
   line-height: 20px;
@@ -415,8 +413,7 @@ h1:not(.no-hover):hover {
 }
 
 .center-text {
-  text-align: center;
-  color: white;
+  color: #333;
 }
 
 h3 {
@@ -425,7 +422,6 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
-  line-height: 0;
   margin-bottom: 38px;
 }
 
@@ -437,12 +433,11 @@ h3 {
 
 .center-text p {
   width: 60%;
-  margin: 0 auto;
 }
 
 .header-text p {
   width: 50%;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 @media (max-width: 1024px) {
@@ -466,7 +461,7 @@ main {
   top: 556px;
   position: relative;
   padding-top: 50px;
-  background-color: black;
+  background-color: #FBF3E3;
   float: left;
   width: 100%;
   display: block;
@@ -932,6 +927,11 @@ h2 {
   padding-bottom: 40px;
 }
 
+.nav-hover p {
+  font-size: .7em;
+  float: right;
+}
+
 .footer-text p {
   width: 50%;
   padding-bottom: 5%;
@@ -944,7 +944,7 @@ h2 {
 }
 
 .container-footer {
-  border-top: 2px solid #333333;
+  border-top: 2px solid #E85A4F;
   display: block;
 }
 
@@ -981,7 +981,7 @@ h2 {
   box-sizing: border-box;
   padding: 30px;
   height: 100%;
-  background-color: rgba(0,0,0,.9);
+  background-color: rgba(232,90,79,.9);
   color: white;
   opacity: 0;
 }
@@ -1104,8 +1104,8 @@ h6 {
 }
 
 .index-footer {
-  top: 560px;
-  background-color: black;
+  top: 556px;
+  background-color: #FBF3E3;
 }
 
 @media(max-width: 1000px) {
@@ -1129,7 +1129,7 @@ h6 {
 }
 
 #breakthru-pic {
-  background-image: url(../img/link-breakthru-2.jpg);
+  background-image: url(../images/Capsule.png);
 }
 
 #magazines-pic {
@@ -1141,7 +1141,7 @@ h6 {
 }
 
 #blocmarc-pic {
-  background-image: url(../img/link-blocmarc.jpg);
+  background-image: url(../images/BG2.png);
 }
 
 #helmet-pic {
@@ -1419,6 +1419,59 @@ h6 {
     display: block;
   }
 }
+/* Contact & Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contacthome {
+  text-align: center;
+}
+
+.contacthome h3{
+  font-weight: 500;
+  color: #333;
+  font-size: 2.5em;
+}
+
+.contacthome h5{
+  color: #8e8d8a;
+  font-size: 1.4em;
+  font-weight: 100;
+  margin-top: -20px;
+}
+
+.contacthome li {
+  display: inline;
+  padding-right: 10px;
+}
+
+.contacthome li i {
+  position:relative;
+  vertical-align: middle;
+  color: #333;
+  display: inline-block;
+  height: 80px;
+  width: 45px;
+  line-height: 90px;
+  text-align: center;
+  transition: 0.5s;
+  padding: 0 20px;
+  margin-right: 35px;
+  cursor: pointer;
+  border: 3px solid #333;
+  -webkit-transition:0.7s;
+  font-size: 3em;
+  border-radius: 2px;
+}
+
+.contacthome li i:hover {
+  border: 3px solid rgba(232,90,79,1);
+  color: #E85A4F;
+}
+
+.contacthome ul {
+    text-align: center;
+    padding-top: 15px;
+  }
 /*.mobile-button {
   float: left;
   display: none;
