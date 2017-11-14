@@ -32,10 +32,6 @@ a {
   }
 }
 
-img {
-  width: 100%;
-}
-
 .mobile-img {
   display: none;
 }
@@ -251,7 +247,8 @@ nav {
   }
   .nav-hover {
     float: right;
-    width: 230px;
+    /*width: 230px;*/
+    display: block;
   }
   #nav-logo {
     width: 33px;
@@ -369,18 +366,14 @@ h1:not(.no-hover):hover {
   color: #e0be4f;
 }
 
-.cs-summary img {
-  width: 100%;
-}
-
 @media(max-width: 1024px) {
   .header-h1 {
     padding-top: 130px;
   }
   .cs-summary h1 {
-    font-size: 4rem;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    font-size: 2.8rem;
+    padding-bottom: 30px;
+    line-height: 2.4rem;
   }
   .header-h1 h1 {
     padding-top: 50px;
@@ -442,7 +435,7 @@ h3 {
 
 @media (max-width: 1024px) {
   .center-text p {
-    width: 100%;
+    width: 95%;
   }
 }
 
@@ -1128,7 +1121,7 @@ h6 {
 }
 
 #flyerwine-pic {
-  background-image: url(../img/home-mags.jpg);
+  background-image: url(../images/flyer-wine.png);
 }
 
 #bargo-pic {
@@ -1418,6 +1411,12 @@ h6 {
 .contacthome ul {
     text-align: center;
     padding-top: 15px;
+  }
+
+  @media (max-width: 597px) {
+    .border ul li {
+      display: block;
+    }
   }
 /*.mobile-button {
   float: left;
