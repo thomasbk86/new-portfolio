@@ -160,13 +160,13 @@ img {
 
 nav {
   display: block;
-  position: relative;
+  /*position: fixed;*/
   z-index: 2000;
-  top: 556px;
+  top: 0px;
 }
 
 .container-nav {
-  border-bottom: 2px solid #E85A4F;
+  border-top: 2px solid #E85A4F;
 }
 
 .cs-nav {
@@ -458,7 +458,7 @@ h3 {
 /*MAIN*/
 
 main {
-  top: 556px;
+  top: 356px;
   position: relative;
   padding-top: 50px;
   background-color: #FBF3E3;
@@ -940,7 +940,6 @@ h2 {
 .footer-nav {
   position: relative;
   z-index: 0;
-  padding-bottom: 5%;
 }
 
 .container-footer {
@@ -1124,76 +1123,16 @@ h6 {
   }
 }
 
-#mag-pic {
-  background-image: url(../img/link-magazine-1.jpg);
-}
-
 #capsule-pic {
   background-image: url(../images/Capsule.png);
 }
 
-#magazines-pic {
+#flyerwine-pic {
   background-image: url(../img/home-mags.jpg);
-}
-
-#portfolio-pic {
-  background-image: url(../img/link-portfolio-1.jpg);
 }
 
 #bargo-pic {
   background-image: url(../images/BG2.png);
-}
-
-#helmet-pic {
-  background-image: url(../img/home-helmet.jpg);
-}
-
-#raven-pic {
-  background-image: url(../img/home-raven.jpg);
-}
-
-#experience-pic {
-  background-image: url(../img/home-experience.jpg);
-}
-
-#perfect-pic {
-  background-image: url(../img/home-perfect.jpg);
-}
-
-#block-pic {
-  background-image: url(../img/home-block.jpg);
-}
-
-#gettysburg-pic {
-  background-image: url(../img/home-gettysburg.jpg);
-}
-
-#divisional-pic {
-  background-image: url(../img/home-divisional.jpg);
-}
-
-#TentoBen-pic {
-  background-image: url(../img/home-10toBen.jpg);
-}
-
-#ruth-pic {
-  background-image: url(../img/home-ruth.jpg);
-}
-
-#fork-pic {
-  background-image: url(../img/home-fork.jpg);
-}
-
-#firstnight-pic {
-  background-image: url(../img/home-first-night.jpg);
-}
-
-#boyd-pic {
-  background-image: url(../img/home-boyd.jpg);
-}
-
-#futurevoices-pic {
-  background-image: url(../img/home-futurevoices.gif);
 }
 
 
@@ -1424,6 +1363,14 @@ h6 {
 
 .contacthome {
   text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contacthome h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #333;
 }
 
 .contacthome h3{
