@@ -362,10 +362,6 @@ nav {
   padding-top: 6%;
 }
 
-h1:not(.no-hover):hover {
-  color: #e0be4f;
-}
-
 @media(max-width: 1024px) {
   .header-h1 {
     padding-top: 130px;
