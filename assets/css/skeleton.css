@@ -202,7 +202,7 @@ nav {
 .cs-nav ul li a{
   text-decoration: none;
   color: inherit;
-  display: block;
+  /*display: block;*/
   position: relative;
 }
 
@@ -220,9 +220,16 @@ nav {
   .cs-nav ul li a{
     font-size: 20px;
   }
+
+  .cs-nav ul li {
+    display: block;
+    float: none;
+    margin-left: 0;
+    text-align: center;
+  }
 }
 
-.nav-hover li:hover {
+.nav-hover li a:hover {
   border-bottom: 3px solid #E85A4F;
   /*padding-bottom: 2px;*/
   transition: all 170ms;
