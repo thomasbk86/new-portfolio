@@ -227,6 +227,12 @@ nav {
     margin-left: 0;
     text-align: center;
   }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
 }
 
 .nav-hover li a:hover {
@@ -265,9 +271,9 @@ nav {
   #nav-logo-name {
     display: none;
   }
-  #mobile-logo {
+  /*#mobile-logo {
     width: 33px;
-  }
+  }*/
   .nav-hover {
     float: right;
     /*width: 230px;*/
