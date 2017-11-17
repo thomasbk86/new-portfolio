@@ -206,6 +206,22 @@ nav {
   position: relative;
 }
 
+@media (max-width: 660px) {
+  .one-half {
+    width: 70%;
+  }
+}
+
+@media (max-width: 460px) {
+  .one-half {
+    width: 100%;
+    font-size: 20px;
+  }
+  .cs-nav ul li a{
+    font-size: 20px;
+  }
+}
+
 .nav-hover li:hover {
   border-bottom: 3px solid #E85A4F;
   /*padding-bottom: 2px;*/
@@ -482,6 +498,9 @@ main {
   }
 }
 
+.contacthome :focus {
+  outline: none;
+}
 
 /* PROBLEM/SOLUTION SECTION */
 
