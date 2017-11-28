@@ -15,7 +15,7 @@
     <meta name="theme-color" content="#ffffff">
     <title>Thomas Kurth | Design | Portfolio</title>
 
-    <!-- FONT
+    <!-- GOOGLE FONTS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,700" rel="stylesheet" type="text/css">
 
@@ -33,6 +33,19 @@
 
   <body>
 
+    <header>
+  			<button class="hamburger">&#9776;</button>
+  			<button class="cross">&#735;</button>
+  	</header>
+
+  	<div class="menu">
+  		<ul style="padding-left: 0px; margin-top: 0px;">
+  			<a href="index.html"><li>CASE STUDIES</li></a>
+  			<a href="#aboutme"><li>ABOUT</li></a>
+  			<a href="contact.html"><li>CONTACT</li></a>
+  		</ul>
+  	</div>
+
     <!-- HEADER -->
 
     <header class="cs-summary header-h1">
@@ -40,7 +53,7 @@
         <!-- <img id="nav-logo"src="assets/images/icon.png" height="20px" width="23px" alt="TK Design"/> -->
         <h1 class="no-hover" id="greet">Welcome</h1>
         <div class="center-text header-text">
-          <p>I design and build mobile and web interfaces from Columbus, OH. Explore the case studies below for a detailed look into my design process and feel free to contact me with any questions or project ideas at <span style="color: #E85A4F; font-weight: 700;"><a href="mailto:thomasbk86@gmail.com">thomasbk86@gmail.com</a></span>.</p>
+          <p style="margin-left:0px;">I design and build mobile and web interfaces from Columbus, OH. Explore the case studies below for a detailed look into my design process and feel free to contact me with any questions or project ideas at <span style="color: #E85A4F; font-weight: 700;"><a href="mailto:thomasbk86@gmail.com">thomasbk86@gmail.com</a></span>.</p>
         </div>
       </div>
     </header>
@@ -56,7 +69,6 @@
                 <a href=""><img class="logo" src="assets/images/icon.png" height="20px" width= "23px" alt="TK"/></a>
               </div>
               <ul class="one-half nav-hover">
-                <li><a href="#contact">CONTACT</a></li>
                 <li><a href="">CASE STUDIES</a></li>
                 <li><a href="">ABOUT</a></li>
               </ul>
@@ -79,10 +91,10 @@
             <p>UX/UI Design, Branding, Front-End Development<p>
             <p class="describe">Collaboration Platform</p>
             <ul class="footer-button">
-              <a href="pages/breakthru.html"><li>View Case Study</li></a>
+              <a href="capsule.html"><li>View Case Study</li></a>
             </ul>
           </div>
-          <a href="pages/breakthru.html"><div class="mobile-button">
+          <a href="capsule.html"><div class="mobile-button">
             <div class="mobile-label">
               <p>Case study</p>
             </div>
@@ -95,10 +107,10 @@
             <p>UX/UI Design, Branding</p>
             <p class="describe">Social Mobile Application</p>
             <ul class="footer-button">
-              <a href="pages/blocmarc.html"><li>View Case Study</li></a>
+              <a href="bargo.html"><li>View Case Study</li></a>
             </ul>
           </div>
-          <a href="pages/blocmarc.html"><div class="mobile-button">
+          <a href="bargo.html"><div class="mobile-button">
             <div class="mobile-label">
               <p>Case study</p>
             </div>
@@ -111,10 +123,10 @@
             <p>UX/UI Design, Branding, Front-End Development</p>
             <p class="describe">E-commerce site for small batch wine</p>
             <ul class="footer-button">
-              <a href="pages/magazines.html"><li>View Case Study</li></a>
+              <a href="pages/flyerwine.html"><li>View Case Study</li></a>
             </ul>
           </div>
-          <a href="pages/magazines.html"><div class="mobile-button">
+          <a href="pages/flyerwine.html"><div class="mobile-button">
             <div class="mobile-label">
               <p>Case study</p>
             </div>
@@ -220,7 +232,64 @@
       ga('send', 'pageview');
     </script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-101343334-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/hamburger.js"></script>
 <script src="assets/js/smoothscroll.js"></script>
+
+<!-- js -->
+<script src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/modernizr.js"></script>
+<script>
+    $(document).ready(function(){
+        if (Modernizr.touch) {
+            // show the close overlay button
+            $(".close-overlay").removeClass("hidden");
+            // handle the adding of hover class when clicked
+            $(".img").click(function(e){
+                if (!$(this).hasClass("hover")) {
+                    $(this).addClass("hover");
+                }
+            });
+            // handle the closing of the overlay
+            $(".close-overlay").click(function(e){
+                e.preventDefault();
+                e.stopPropagation();
+                if ($(this).closest(".img").hasClass("hover")) {
+                    $(this).closest(".img").removeClass("hover");
+                }
+            });
+        } else {
+            // handle the mouseenter functionality
+            $(".img").mouseenter(function(){
+                $(this).addClass("hover");
+            })
+            // handle the mouseleave functionality
+            .mouseleave(function(){
+                $(this).removeClass("hover");
+            });
+        }
+    });
+</script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-34160351-1']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
   </body>
 
