@@ -1,0 +1,1141 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+
+/* line 24, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: Visby;
+  src: url(../fonts/VisbyCF-Heavy.woff);
+}
+/* line 8, ../sass/_typography.scss */
+.wf-loading {
+  visibility: hidden;
+}
+
+/* line 12, ../sass/_typography.scss */
+.wf-active, .wf-inactive {
+  visibility: visible;
+}
+
+/* line 16, ../sass/_typography.scss */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+@media screen and (min-width: 480) {
+  /* line 16, ../sass/_typography.scss */
+  body {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 16, ../sass/_typography.scss */
+  body {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 325px) {
+  /* line 16, ../sass/_typography.scss */
+  body {
+    font-size: 14px;
+  }
+}
+
+/* line 29, ../sass/_typography.scss */
+a {
+  text-decoration: none;
+  color: #f9a825;
+}
+
+/* line 33, ../sass/_typography.scss */
+h1 {
+  font-size: 3.25em;
+  color: #E85A4F;
+  font-weight: 700;
+}
+
+/* line 39, ../sass/_typography.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 44, ../sass/_typography.scss */
+h3 {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+/* line 49, ../sass/_typography.scss */
+h4 {
+  font-size: 1.5em;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+/* line 55, ../sass/_typography.scss */
+h5 {
+  margin: 20px 0;
+  font: 1.25em;
+  line-height: 1.5;
+}
+
+/* line 68, ../sass/_typography.scss */
+.contact p {
+  text-align: center;
+  width: 100%;
+}
+
+
+/* line 86, ../sass/_typography.scss */
+.main-color-bar {
+  font-weight: 500;
+  background-color: #f9a825;
+  color: white;
+  padding: 5px 0;
+}
+
+/* line 93, ../sass/_typography.scss */
+.grey-bar {
+  font-weight: 500;
+  background-color: #2c3e50;
+  color: white;
+  padding: 5px 0;
+}
+
+/* line 100, ../sass/_typography.scss */
+.section-header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* line 107, ../sass/_typography.scss */
+.antha {
+  color: rgba(249, 168, 37, 0.3);
+}
+
+/* line 111, ../sass/_typography.scss */
+.landing-case-logo {
+  width: 25%;
+  margin: auto;
+}
+
+/* line 116, ../sass/_typography.scss */
+.brand-name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 121, ../sass/_typography.scss */
+#unabridged {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* line 126, ../sass/_typography.scss */
+.brand-name#drift-list {
+  font-family: "clarendon-urw";
+  font-weight: 300;
+  letter-spacing: 15px;
+  color: white;
+  padding-top: 10px;
+  border-top: 1px solid white;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 141, ../sass/_typography.scss */
+#driftlist-bold {
+  font-weight: 500;
+}
+
+/* line 145, ../sass/_typography.scss */
+#changeseed {
+  font-family: "abril-text";
+  color: white;
+}
+
+/* line 150, ../sass/_typography.scss */
+#blocbox {
+  font-family: "league-gothic";
+  color: white;
+  font-size: 2.5em;
+  padding-bottom: 15px;
+}
+
+/* line 160, ../sass/_typography.scss */
+.content-area h3 {
+  padding-bottom: 10px;
+  margin-top: 2.5em;
+  margin-bottom: 20px;
+  font-size: 1.25em;
+  border-bottom: 2px solid #E85A4F;
+}
+/* line 170, ../sass/_typography.scss */
+.content-area h4 {
+  font-size: 1.1em;
+}
+/* line 173, ../sass/_typography.scss */
+.content-area h2 {
+  font-size: 2em;
+  padding-bottom: .75em;
+  text-align: center;
+}
+/* line 179, ../sass/_typography.scss */
+.content-area .body-intro p {
+  font-size: 1.25em;
+}
+/* line 183, ../sass/_typography.scss */
+.content-area img {
+  width: 100%;
+}
+/* line 185, ../sass/_typography.scss */
+.content-area img.sketch {
+  width: 45%;
+}
+/* line 188, ../sass/_typography.scss */
+.content-area img.main {
+  margin: 20px 0;
+}
+@media screen and (min-width: 480px) {
+  /* line 192, ../sass/_typography.scss */
+  .content-area img#drift-def, .content-area img#balloons {
+    width: 75%;
+    display: block;
+    margin: 30px auto;
+  }
+}
+/* line 199, ../sass/_typography.scss */
+.content-area h5 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+/* line 214, ../sass/_typography.scss */
+#contact-hero h1 {
+  margin-bottom: 20px;
+}
+
+/* line 219, ../sass/_typography.scss */
+.side-note {
+  line-height: 1.2;
+  font-size: .9em;
+  font-weight: 300;
+  font-style: italic;
+  margin: 10px 1em;
+  padding: 10px;
+  display: inline-block;
+}
+
+/* line 232, ../sass/_typography.scss */
+.callout-bar {
+  margin: 20px 0;
+  background-color: #ecf0f1;
+  padding: 20px;
+}
+/* line 234, ../sass/_typography.scss */
+.callout-bar h5 {
+  margin-top: 0;
+}
+
+/* line 242, ../sass/_typography.scss */
+.body-copy .highlights {
+  background-color: #ecf0f1;
+  padding: 1.5em 0;
+  margin: 20px 0;
+}
+/* line 246, ../sass/_typography.scss */
+.body-copy .highlights h4 {
+  margin-top: 0px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+  padding: 0 .5em .5em .5em;
+}
+/* line 254, ../sass/_typography.scss */
+.body-copy ul {
+  list-style-type: circle;
+  margin: 0 2.5em;
+}
+/* line 257, ../sass/_typography.scss */
+.body-copy ul li {
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 1em;
+}
+/* line 264, ../sass/_typography.scss */
+.body-copy ol {
+  list-style-type: decimal;
+  margin: .75em 2.5em;
+}
+/* line 267, ../sass/_typography.scss */
+.body-copy ol li {
+  font-weight: 400;
+  margin: 10px 0;
+  line-height: 1.5;
+  font-size: 1em;
+}
+
+/* line 277, ../sass/_typography.scss */
+.about-hero h2 {
+  line-height: 1.5;
+}
+
+/* line 1, ../sass/_overrides.scss */
+body {
+  background-color: #fafafa;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 5, ../sass/_overrides.scss */
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  /* line 11, ../sass/_overrides.scss */
+  .desktop-hidden {
+    display: none;
+  }
+}
+
+/* line 17, ../sass/_overrides.scss */
+section {
+  margin-bottom: 0px;
+}
+
+/* line 21, ../sass/_overrides.scss */
+figure {
+  margin: 1.25em 0;
+}
+
+/* line 25, ../sass/_overrides.scss */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  /* line 25, ../sass/_overrides.scss */
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 25, ../sass/_overrides.scss */
+  .container {
+    width: 65%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 325px) {
+  /* line 25, ../sass/_overrides.scss */
+  .container {
+    width: 90%;
+  }
+}
+
+
+/* line 53, ../sass/_overrides.scss */
+nav h4 {
+  margin: 0;
+  font-size: 1.2em;
+}
+@media screen and (min-width: 769px) {
+  /* line 53, ../sass/_overrides.scss */
+  nav h4 {
+    font-size: 1em;
+  }
+}
+/* line 60, ../sass/_overrides.scss */
+nav .my-name {
+  color: #f9a825;
+  text-align: center;
+}
+@media screen and (min-width: 769px) {
+  /* line 60, ../sass/_overrides.scss */
+  nav .my-name {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+  }
+}
+/* line 68, ../sass/_overrides.scss */
+nav .my-name a:hover {
+  color: #f9a825;
+}
+/* line 71, ../sass/_overrides.scss */
+nav .my-name .ux-design {
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+}
+/* line 77, ../sass/_overrides.scss */
+nav .menu-bar {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+/* line 80, ../sass/_overrides.scss */
+nav .menu-bar li {
+  font-weight: 200;
+  display: inline;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  transform: border-bottom .2s;
+  -webkit-transition: border-bottom .5s;
+  -moz-transition: border-bottom .5s;
+  -ms-transition: border-bottom .5s;
+  -o-transition: border-bottom .5s;
+}
+@media screen and (min-width: 769px) {
+  /* line 80, ../sass/_overrides.scss */
+  nav .menu-bar li {
+    font-size: .7em;
+    padding-top: 0px;
+    letter-spacing: 1.5px;
+  }
+}
+/* line 97, ../sass/_overrides.scss */
+nav .menu-bar li:hover {
+  border-bottom: 2px solid #f9a825;
+}
+@media screen and (min-width: 769px) {
+  /* line 77, ../sass/_overrides.scss */
+  nav .menu-bar {
+    padding-top: 0px;
+    margin-top: 0px;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+/* line 113, ../sass/_overrides.scss */
+.button {
+  display: inline-block;
+  padding: 20px;
+  background-color: #f9a825;
+  color: white;
+  transition: background-color 400ms ease-in;
+}
+/* line 119, ../sass/_overrides.scss */
+.button:hover {
+  background-color: #fabc57;
+}
+
+/* line 125, ../sass/_overrides.scss */
+.hero {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  height: 450px;
+  background-image: url("/images/bw-land.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+@media screen and (min-width: 480px) {
+  /* line 125, ../sass/_overrides.scss */
+  .hero {
+    height: 550px;
+    background-position: center center;
+  }
+}
+/* line 137, ../sass/_overrides.scss */
+.hero .hero-overlay {
+  background-color: rgba(34, 49, 63, 0.6);
+  height: 580px;
+  margin-top: -50px;
+}
+
+/* line 146, ../sass/_overrides.scss */
+.hero .name-block {
+  padding-top: 100px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 480px) {
+  /* line 146, ../sass/_overrides.scss */
+  .hero .name-block {
+    padding-top: 175px;
+  }
+}
+
+/* line 158, ../sass/_overrides.scss */
+.hero .hero-copy h2 {
+  color: white;
+  padding: 20px 0;
+  line-height: 1;
+}
+/* line 164, ../sass/_overrides.scss */
+.hero .hero-copy p {
+  color: #fde3ba;
+  font-weight: 200;
+}
+/* line 168, ../sass/_overrides.scss */
+.hero .hero-copy p#landing-copy {
+  font-weight: 200;
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+/* line 175, ../sass/_overrides.scss */
+.hero#about-page {
+  background-image: url("../images/profile5.png");
+  background-size: cover;
+  background-position: -400px 0px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+/* line 180, ../sass/_overrides.scss */
+.hero#about-page .about-block {
+  padding-top: 300px;
+}
+
+.about-block h1 {
+  margin: 0;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 175, ../sass/_overrides.scss */
+  .hero#about-page {
+    background-position: -20px 120px;
+  }
+  /* line 185, ../sass/_overrides.scss */
+  .hero#about-page .about-block {
+    padding-top: 425px;
+  }
+  .hero .hero-overlay {
+    height: 480px;
+    background-position: center center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 175, ../sass/_overrides.scss */
+  .hero#about-page {
+    background-position: 0px -20px;
+  }
+  .hero .hero-overlay {
+    height: 680px;
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* line 175, ../sass/_overrides.scss */
+  .hero#about-page {
+    background-position: 0px 60px;
+    height: 350px;
+  }
+  /* line 191, ../sass/_overrides.scss */
+  .hero#about-page .about-block {
+    padding-top: 225px;
+  }
+  /* line 194, ../sass/_overrides.scss */
+  .hero#about-page h2 {
+    width: 70%;
+    font-size: 1.25em;
+    line-height: 1.2;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  /* line 175, ../sass/_overrides.scss */
+  .hero#about-page {
+    background-position: -90px 60px;
+  }
+  .hero .hero-overlay {
+    height: 480px;
+    background-position: center center;
+  }
+  .hero#about-page .about-block {
+    padding-top: 160px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  /* line 175, ../sass/_overrides.scss */
+  .hero#about-page {
+    background-position: -125px 70px;
+  }
+  .hero .hero-overlay {
+    height: 480px;
+    background-position: center center;
+  }
+  .hero#about-page .about-block {
+    padding-top: 125px;
+  }
+}
+
+/* line 200, ../sass/_overrides.scss */
+.hero#about-page h2 {
+  font-size: .9em;
+  line-height: 1.5;
+  font-weight: 500;
+}
+/* line 205, ../sass/_overrides.scss */
+.hero#driftlist-hero {
+  background-image: url("/assets/driftlist/hero-background-mobile.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 480px) {
+  /* line 205, ../sass/_overrides.scss */
+  .hero#driftlist-hero {
+    background-image: url("/assets/driftlist/hero-background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
+/* line 219, ../sass/_overrides.scss */
+.hero#driftlist-hero .hero-copy {
+  margin-top: 250px;
+  color: white;
+  background-color: rgba(34, 49, 63, 0.75);
+  padding: 20px 0;
+}
+/* line 224, ../sass/_overrides.scss */
+.hero#driftlist-hero .hero-copy p {
+  font-size: 1.1em;
+}
+@media screen and (max-width: 480px) {
+  /* line 228, ../sass/_overrides.scss */
+  .hero#driftlist-hero .hero-copy h2 {
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+  /* line 232, ../sass/_overrides.scss */
+  .hero#driftlist-hero .hero-copy p {
+    font-size: 1em;
+  }
+}
+/* line 238, ../sass/_overrides.scss */
+.hero#changeseed-hero {
+  background-image: url("/assets/changeseed/background-hero.jpg");
+  background-size: cover;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+/* line 246, ../sass/_overrides.scss */
+.hero#changeseed-hero .hero-copy {
+  margin-top: 200px;
+  color: white;
+  background-color: rgba(34, 49, 63, 0.75);
+  padding: 20px 0;
+}
+@media screen and (max-width: 480px) {
+  /* line 252, ../sass/_overrides.scss */
+  .hero#changeseed-hero .hero-copy h2 {
+    font-size: 1.5em;
+    padding: 10px 0;
+  }
+  /* line 256, ../sass/_overrides.scss */
+  .hero#changeseed-hero .hero-copy p {
+    color: #fde3ba;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+  }
+}
+/* line 264, ../sass/_overrides.scss */
+.hero#contact-hero .hero-copy {
+  margin-top: 200px;
+  color: white;
+  background-color: rgba(34, 49, 63, 0.6);
+  padding: 20px 0;
+}
+@media screen and (max-width: 480px) {
+  /* line 270, ../sass/_overrides.scss */
+  .hero#contact-hero .hero-copy h1 {
+    font-size: 2.5em;
+    color: white;
+    padding: 10px 0;
+  }
+  /* line 275, ../sass/_overrides.scss */
+  .hero#contact-hero .hero-copy p {
+    color: white;
+  }
+}
+/* line 281, ../sass/_overrides.scss */
+.hero .down-arrow {
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 284, ../sass/_overrides.scss */
+.hero .down-arrow h4 {
+  margin-bottom: 0px;
+}
+
+/* line 290, ../sass/_overrides.scss */
+.first-figure {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+/* line 294, ../sass/_overrides.scss */
+.about-hero {
+  padding-right: 30px;
+  background-color: lightgray;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+/* line 303, ../sass/_overrides.scss */
+.hero-copy h2 {
+  line-height: 1.5;
+}
+
+/* line 308, ../sass/_overrides.scss */
+.case-studies {
+  padding: 10px 0;
+}
+@media screen and (min-width: 480px) {
+  /* line 308, ../sass/_overrides.scss */
+  .case-studies {
+    padding-bottom: 50px;
+  }
+}
+
+/* line 315, ../sass/_overrides.scss */
+.case-studies, .contact {
+  text-align: center;
+}
+/* line 317, ../sass/_overrides.scss */
+.case-studies .case-list, .contact .case-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  height: 250px;
+  background-color: gray;
+  text-align: center;
+  position: relative;
+}
+/* line 325, ../sass/_overrides.scss */
+.case-studies .case-list h5, .contact .case-list h5 {
+  padding-top: 1em;
+  font-size: 1.1em;
+  margin: 0;
+  color: white;
+}
+/* line 331, ../sass/_overrides.scss */
+.case-studies .case-list img, .contact .case-list img {
+  height: 125px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 480px) {
+  /* line 317, ../sass/_overrides.scss */
+  .case-studies .case-list, .contact .case-list {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 769px) {
+  /* line 317, ../sass/_overrides.scss */
+  .case-studies .case-list, .contact .case-list {
+    margin: 0;
+    width: 33%;
+  }
+}
+/* line 343, ../sass/_overrides.scss */
+.case-studies .case-list#landing-changeseed img, .contact .case-list#landing-changeseed img {
+  margin-bottom: 10px;
+}
+/* line 346, ../sass/_overrides.scss */
+.case-studies .case-list#landing-changeseed h4, .contact .case-list#landing-changeseed h4 {
+  font-size: 2em;
+  margin-bottom: 33px;
+}
+@media screen and (max-width: 480px) {
+  /* line 342, ../sass/_overrides.scss */
+  .case-studies .case-list#landing-changeseed, .contact .case-list#landing-changeseed {
+    margin: 10px 0;
+  }
+}
+/* line 355, ../sass/_overrides.scss */
+.case-studies .case-list#landing-blocbox img, .contact .case-list#landing-blocbox img {
+  margin-left: -30px;
+}
+/* line 359, ../sass/_overrides.scss */
+.case-studies .case-list:hover, .contact .case-list:hover {
+  color: white;
+}
+/* line 363, ../sass/_overrides.scss */
+.case-studies .case-list .case-specs, .contact .case-list .case-specs {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  height: 100%;
+  z-index: 1;
+  transition: all 400ms ease-in-out;
+  background-color: rgba(52, 73, 94, 0.8);
+  opacity: 0;
+  padding-top: 75px;
+}
+/* line 378, ../sass/_overrides.scss */
+.case-studies .case-list .case-specs p, .contact .case-list .case-specs p {
+  font-size: .8em;
+}
+/* line 383, ../sass/_overrides.scss */
+.case-studies .case-list:hover .case-specs, .contact .case-list:hover .case-specs {
+  opacity: 1;
+}
+
+/* line 392, ../sass/_overrides.scss */
+.contact {
+  /* Rectangle 1: */
+  background-image: linear-gradient(57deg, #22313F 0%, #385774 100%);
+  color: #f9a825;
+  text-align: center;
+  padding: 4.5em 0;
+}
+/* line 398, ../sass/_overrides.scss */
+.contact h3 {
+  padding-top: 0px;
+  padding-bottom: .5em;
+  color: white;
+}
+/* line 403, ../sass/_overrides.scss */
+.contact .partner-up {
+  padding-bottom: 1em;
+}
+
+
+/* line 413, ../sass/_overrides.scss */
+.with-border {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #f9a825;
+  padding: 10px 20px 10px 20px;
+}
+
+/* line 422, ../sass/_overrides.scss */
+#landing-changeseed {
+  background-image: url("/images/changeseed-landing-image.png");
+  background-size: cover;
+}
+
+/* line 429, ../sass/_overrides.scss */
+#landing-driftlist {
+  background-image: url("/images/drift-landing-bg.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 436, ../sass/_overrides.scss */
+#landing-blocbox {
+  background-image: url("/images/blocbox-landing-image.png");
+  background-position: top center;
+  background-size: cover;
+}
+/* line 440, ../sass/_overrides.scss */
+#landing-blocbox .case-specs {
+  padding: 50px;
+}
+
+/* line 445, ../sass/_overrides.scss */
+.social-bar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+/* line 449, ../sass/_overrides.scss */
+.social-bar h4 {
+  color: #2c3e50;
+  margin: .75em 0;
+}
+@media screen and (min-width: 480px) {
+  /* line 449, ../sass/_overrides.scss */
+  .social-bar h4 {
+    margin: 0;
+  }
+}
+/* line 456, ../sass/_overrides.scss */
+.social-bar h5 {
+  padding-bottom: 10px;
+}
+/* line 459, ../sass/_overrides.scss */
+.social-bar li {
+  display: inline;
+  padding-right: 10px;
+}
+/* line 462, ../sass/_overrides.scss */
+.social-bar li i {
+  background-color: #fafafa;
+  border: 1px solid #f9a825;
+  padding: 10px;
+}
+@media screen and (min-width: 480px) {
+  /* line 445, ../sass/_overrides.scss */
+  .social-bar {
+    width: 50%;
+    float: left;
+  }
+  /* line 472, ../sass/_overrides.scss */
+  .social-bar h4, .social-bar ul {
+    text-align: left;
+  }
+}
+
+/* line 479, ../sass/_overrides.scss */
+.copyright-info p {
+  font-size: .7em;
+  text-align: center;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 480px) {
+  /* line 478, ../sass/_overrides.scss */
+  .copyright-info {
+    width: 50%;
+    float: right;
+  }
+  /* line 487, ../sass/_overrides.scss */
+  .copyright-info p {
+    padding-top: 20px;
+    text-align: right;
+    margin-right: 40px;
+  }
+}
+
+/* line 495, ../sass/_overrides.scss */
+.body-intro {
+  padding: 2.5em 0;
+}
+
+/* line 500, ../sass/_overrides.scss */
+.body-copy img {
+  margin: 10px 0;
+}
+
+/* line 505, ../sass/_overrides.scss */
+.landing-case-logo {
+  margin-top: 20px;
+}
+
+/* line 509, ../sass/_overrides.scss */
+.contact-form {
+  padding-top: 50px;
+  width: 85%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 480px) {
+  /* line 509, ../sass/_overrides.scss */
+  .contact-form {
+    width: 60%;
+  }
+}
+/* line 516, ../sass/_overrides.scss */
+.contact-form h3 {
+  text-align: center;
+}
+/* line 519, ../sass/_overrides.scss */
+.contact-form input {
+  font-family: "pragmatica-web",sans-serif;
+  font-size: 1em;
+  border-radius: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid gray;
+  transition: border-bottom 0.1s ease-in;
+}
+/* line 529, ../sass/_overrides.scss */
+.contact-form input:focus {
+  outline: none;
+  border-bottom: 1px solid #f9a825;
+}
+/* line 534, ../sass/_overrides.scss */
+.contact-form textarea {
+  font-family: "pragmatica-web",sans-serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  height: 200px;
+}
+/* line 545, ../sass/_overrides.scss */
+.contact-form textarea:focus {
+  outline: none;
+  border: 1px solid #f9a825;
+}
+/* line 550, ../sass/_overrides.scss */
+.contact-form button {
+  font-family: "pragmatica-web",sans-serif;
+  font-weight: 200;
+  background-color: #f9a825;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 1em;
+  margin: 0 auto;
+}
+/* line 562, ../sass/_overrides.scss */
+.contact-form button:hover {
+  cursor: pointer;
+}
+
+/* line 568, ../sass/_overrides.scss */
+.form-container {
+  padding: 20px;
+}
+
+/* line 571, ../sass/_overrides.scss */
+.images-section {
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  /* line 574, ../sass/_overrides.scss */
+  .images-section figure {
+    width: 40%;
+  }
+  /* line 576, ../sass/_overrides.scss */
+  .images-section figure.left {
+    margin-right: 10%;
+  }
+}
+/* line 581, ../sass/_overrides.scss */
+.images-section .img-placeholder {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  background-color: #f9a825;
+}
+/* line 586, ../sass/_overrides.scss */
+.images-section .img-placeholder h4 {
+  padding-top: 70px;
+}
+/* line 590, ../sass/_overrides.scss */
+.images-section figure {
+  display: inline-block;
+  margin: 10px 0;
+}
+/* line 593, ../sass/_overrides.scss */
+.images-section figure figcaption {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  /* line 600, ../sass/_overrides.scss */
+  .user-flow figure {
+    margin: 20px 0;
+  }
+}
+
+/* line 607, ../sass/_overrides.scss */
+#drift-comp {
+  margin: 1.5em 0px;
+}
+
+/* line 611, ../sass/_overrides.scss */
+.the-problem {
+  background-color: #ecf0f1;
+  padding: 3.5em 0px;
+}
+
+/* line 616, ../sass/_overrides.scss */
+.conclusion, .the-solution {
+  padding: 3.5em 0;
+  background: #2c3e50;
+  color: white;
+}
+
+/* line 622, ../sass/_overrides.scss */
+.code-life {
+  padding: 3.5em 0;
+  background-color: #ecf0f1;
+}
+
+/* line 627, ../sass/_overrides.scss */
+.the-process {
+  padding: 2.75em 0px;
+}
+/* line 629, ../sass/_overrides.scss */
+.the-process h2 {
+  padding-bottom: 0;
+}
+
+/* line 634, ../sass/_overrides.scss */
+.footer-content {
+  width: 85%;
+  margin: 0 auto;
+}

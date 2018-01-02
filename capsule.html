@@ -1,316 +1,410 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<head>
 
-  <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script>
+	<script>
+	  	window.dataLayer = window.dataLayer || [];
+	  	function gtag(){dataLayer.push(arguments);}
+	  	gtag('js', new Date());
+	  	gtag('config', 'UA-109768503-1');
+	</script>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
-    <title>Thomas Kurth | Design | Case Study</title>
+	<title>Thomas Kurth | Bar Go Case Study</title>
 
-    <!-- GOOGLE FONTS
-    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,700" rel="stylesheet" type="text/css">
+	<!-- GOOGLE FONTS
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,700" rel="stylesheet" type="text/css">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet" href="assets/css/skeleton.css">
+<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" href="assets/css/Font-Awesome.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bargocase.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/skeleton.css">
 
-  </head>
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
 
-  <body>
+</head>
 
-    <!-- NAVBAR -->
-    <nav>
-      <div class="navbar-wrapper">
-        <section class="cs-nav navbar">
-            <div class="container container-index container-nav">
-              <div class="one-half" id="mobile-logo">
-                <!-- removed the UL - was not needed -->
-                <a href=""><img class="logo" src="assets/images/icon.png" height="20px" width= "23px" alt="TK"/></a>
-              </div>
-              <ul class="one-half nav-hover">
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="">CASE STUDIES</a></li>
-                <li><a href="">ABOUT</a></li>
-              </ul>
-            </div>
-         </section>
+<body>
+
+	<header>
+			<button class="hamburger">&#9776;</button>
+			<button class="cross">&#735;</button>
+	</header>
+
+	<div class="menu">
+		<ul style="padding-left: 0px; margin-top: 0px;">
+			<a href="index.html"><li>CASE STUDIES</li></a>
+			<a href="about-me.html"><li>ABOUT</li></a>
+		</ul>
+	</div>
+
+	<!-- NAVBAR -->
+	<nav>
+		<div class="navbar-wrapper">
+			<section class="cs-nav navbar">
+					<div class="container container-index container-nav">
+						<div class="one-half" id="mobile-logo">
+							<a href="index.html"><img class="logo" src="assets/images/icon.png" height="35px" width= "23px" alt="TK"/></a>
+						</div>
+						<ul class="one-half nav-hover">
+							<li><a href="index.html">CASE STUDIES</a></li>
+							<li><a href="about-me.html">ABOUT</a></li>
+						</ul>
+					</div>
+			 </section>
+		</div>
+	</nav>
+
+<!-- intro -->
+
+	<section class="intro">
+
+		<h1>CASE STUDY</h1>
+
+		<div class="introcopy">
+
+			<h2>Capsule</h2>
+
+			<p>While several sites exist for collecting and storing information and collaborating with peers, there is an opportunity to provide a more simple, user friendly experience. Capsule is a web application which allows people to collect information and store it in a single place. A person can create simple documents, store images, links to websites, and collaborate with others in simple and effective ways.</p>
+
+			<div class="project-link">
+				<a href="https://invis.io/UPE4UFECQ" target="blank"><p>see the prototype</p></a>
+			</div>
+		</div>
+
+		<div class="hero">
+			<img src="assets/images/CapsuleMockup.png" alt="A person navigating an app on their phone.">
+		</div>
+
+		<div class="challenge">
+			<div>
+				<p><span>CHALLENGE</span> create a responsive website to help users save and share images, links and text.</p>
+				<p><span>THE TASK</span> design the brand and build the html, css, javaScript and jQuery of a website.</p>
+				<p><span>MY FOCUS</span> brand creation and website design.</p>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- PROBLEM/SOLUTION -->
+	<section class="cs-probsol">
+		<div class="cs-gray">
+			<div class="probsol-left">
+				<h3><span class="underline">The Challenge</span></h3>
+				<p>Designing for a responsive experience so users can access and view content in Capsule from any device. Simplicity in grouping and creating content, and being able to collaborate with ease was the focus when designing Capsule.</p>
+			</div>
+		</div>
+		<div class="cs-white">
+			<div class="probsol-right">
+				<h3><span class="underline">The Solution</span></h3>
+				<p>There was an opportunity to focus on simplicity and the user experience to differentiate from competitors. After a careful examination of user research, the competitive analysis and various usability tests, I created Capsule - a place to collaborate with others and share ideas, links and images.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- PROCESS -->
+	<section class="cs-summary">
+		<div class="container">
+			<img src="assets/images/iMacCapsuleMockup.png" alt="Capsule" id="laptop-padding" />
+			<div class="center-text">
+				<h3><span class="underline-red">Process</span></h3>
+				<p>Capsule started with gathering user research to build out personas and focus on the experience of using the site. After the personas were created, I moved to user flows, which set up the structure of the site. From there, I created the wireframes and conducted various usability tests. Once the designs were finalized, I created the mockups and then finally moved to prototyping.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- USER RESEARCH -->
+	<section class="cs-white">
+		<div class="container-research">
+			<h4><span class="process-tag" id="research-tag">User research highlights</span></h4>
+			<div class="one-fourth research">
+				<h5>84%</h5>
+				<p>of users browsed video content online. 81% browsed new and social networks.</p>
+			</div>
+			<div class="one-fourth research">
+				<h5>61%</h5>
+				<p>of users download content that interests them directly to their computer rather than using an application or website. </p>
+			</div>
+      <div class="one-fourth research">
+				<h5>71%</h5>
+				<p>of respondents bookmark content using their broswer rather than an application or a website.</p>
+			</div>
+      <div class="one-fourth research">
+        <i class="fa fa-pencil-square-o fa-3" aria-hidden="true"></i>
+        <p>Users wanted to save and create content quickly and be able to collaborate with ease. Social registration with similar sites was typically a hassle and managing bookmarks was a common problem as well.</p>
       </div>
-    </nav>
 
-    <!-- SUMMARY -->
-    <section class="cs-summary" id="intro-padding">
-      <div class="container">
-        <a href="https://benjhoward.github.io/blocmarc/" target="_blank"><img src="../img/cs-blocmarc-hero.png" alt="Blocmarc" class="img-link" title="See the prototype"/></a>
-        <a href="https://benjhoward.github.io/blocmarc/" target="_blank" style="text-decoration: none;"><h1 title="See the prototype">Blocmarc</h1></a>
-        <div class="center-text">
-          <h3><span class="underline-white">Summary</span></h3>
-          <p>Saving inspiration on the web can be difficult. Blocmarc wants to give users an easy way to create text and collect images and links so that they&rsquo;ll never forget an idea. I researched, designed and developed this prototype for my Bloc Designer Track project.</p>
-        </div>
+		</div>
+	</section>
+
+	<!-- COMPETITIVE ANALYSIS -->
+	<section class="cs-probsol">
+		<div class="cs-gray">
+			<div class="process-left">
+				<h4><span class="process-tag">Competitive analysis</span></h4>
+				<p>I set up a competitive analysis of Box, Evernote, and Dropbox comparing the key features and differentiating factors, how they position themselves in the market and who their primary audiences were. I found an opportunity to simplify the user experience while focusing on a smaller number of key features</p>
+				<div class="icon-grid">
+					<img src="assets/images/dropboxicon.png" class="compete-icons">
+					<img src="assets/images/evernoteicon.png" class="compete-icons">
+					<img src="assets/images/boxicon.png" class="compete-icons">
+			</div>
+		</div>
+		<div class="cs-white">
+			<div class="process-right">
+				<h4><span class="process-tag">User Personas</span></h4>
+				<p>I started creating user personas to determine and finalize requirements, validate concepts and develop a script for usability tests. Three personas were developed from the user research. Julie wanted a centralized way of organizing inspiration that’s not time consuming and has easy-to-use tools. Robert wants to share inspiration with his team and organize their content into groups while having the ability to write and share notes. Sun wants to keep track of bookmarked content and be able to view it from work or from home.</p>
+				<img src="assets/images/CapsulePersonas.png" id="laptop-padding" />
+			</div>
+      <div class="project-link-wireframe">
+        <a href="https://invis.io/UPE4UFECQ" target="blank"><p>persona details</p></a>
       </div>
-    </section>
+		</div>
+	</section>
 
-    <!-- PROBLEM/SOLUTION -->
-    <section class="cs-probsol">
-      <div class="cs-gray">
-        <div class="probsol-left">
-          <h3><span class="underline">Problem</span></h3>
-          <p>Most web apps for note taking are too complicated &ndash; there are more options than are necessary to record inspiration. The end result is a cluttered experience that makes finding content cumbersome and confusing. Blocmarc strives to give its users a simple, clean and effective way of saving ideas on the web.</p>
-        </div>
-      </div>
-      <div class="cs-white">
-        <div class="probsol-right">
-          <h3><span class="underline">Solution</span></h3>
-          <p>Through comprehensive user research, competitive analysis and user testing, we created Blocmarc: Never forget an idea. Our process (detailed in the next section) found that our users wanted a quick way create, save and share content (notes, checklists, images and links) on their mobile devices and computers.</p>
-        </div>
-      </div>
-    </section>
+	<!-- USER FLOWS -->
+	<section class="cs-white background-img" id="user-flows">
+		<div class="container">
+			<div class="process-left float-box-right">
+				<h4><span class="process-tag">User Stories and Flows</span></h4>
+				<p>The user stories and flows were then created so the structure of the site would start to develop. I incorporated user feedback into flow edits after a detailed analysis of initial results. This allowed for a good foundation before continuing on with the development of the site.</p>
+        	<img src="assets/images/capsuleuserflow.png" class="user-flows">
+			</div>
+		</div>
+	</section>
 
-    <!-- PROCESS -->
-    <section class="cs-summary">
-      <div class="container">
-        <img src="../img/blocmarc-laptop.png" alt="Blocmarc" id="laptop-padding" />
-        <div class="center-text">
-          <h3><span class="underline-white">Process</span></h3>
-          <p>The path to Blocmarc consisted of a detailed and careful study of user research, competitive analysis, user personas, user stories/flows, wireframes, mockups, branding, prototypes and user testing &ndash; all with various iterations:</p>
-        </div>
-      </div>
-    </section>
+	<!-- BRANDING -->
+	<section class="cs-gray" id="">
+		<div class="container-branding">
+			<h4><span class="process-tag" id="research-tag">Branding</span></h4>
+			<div class="process-left standalone-left">
+				<p>Sites that save content, such as personal photos and notes, need to be trustworthy and reliable. A deep blue was chosen as the main color, which was accented by a strawberry red for any calls to action. The Gotham font family was the chosen typography, which gave the design a strong but modern feel and allowed for a good visual hierarchy throughout the site.</p>
+			</div>
+			<div class="one-half color-grid">
+				<p class="one-third color-box" style="background-color: #3D6098">#3D6098</p>
+				<p class="one-third color-box" style="background-color: #4F83CC">#4F83CC</p>
+				<p class="one-third color-box" style="background-color: #213159">#213159</p>
+				<p class="one-third color-box" style="background-color: #FF5252">#FF5252</p>
+				<p class="one-third color-box-white" style="background-color: #E2E2E2">#E2E2E2</p>
+				<p class="one-third color-box" style="background-color: #333333">#333333</p>
+			</div>
+		</div>
+	</section>
 
-    <!-- USER RESEARCH -->
-    <section class="cs-white">
-      <div class="container">
-        <h4><span class="process-tag" id="research-tag">User research highlights</span></h4>
-        <div class="one-fourth research">
-          <h5>86%</h5>
-          <p>News (86%) and social networks (86%) are the most popular content types by a large margin.</p>
-        </div>
-        <div class="one-fourth research">
-          <h5>78.6%</h5>
-          <p>Browser access will be key for the success of Blocmarc as most respondents use their browsers to save content (78.6%). Many respondents commented that browser bookmarks can become cluttered and confusing.</p>
-        </div>
-        <div class="one-fourth research">
-          <h5>Sync</h5>
-          <p>Respondents commented that they would like an app that could sync across platforms, offer better organization and the ability to check off notes &ndash; not delete &ndash; once they&rsquo;re finished.</p>
-        </div>
-        <div class="one-fourth research">
-          <h5>85.7%</h5>
-          <p>85.7% of respondents said they would be open to paying for a service that organized their digital documents. 77.8% of those willing to pay would commit $5-10 per month. </p>
-        </div>
-      </div>
-    </section>
+	<!-- LOGO -->
+	<section class="cs-white">
+		<div class="container">
+			<div class="process-left standalone-center">
+				<h4><span class="process-tag">Logo</span></h4>
+				<p>I started by sketching out ideas and eventually landed on a simple, yet effective icon. The logo is a minimalist icon with the “Capsule” text inside, reminiscent of putting items into a time capsule. I wanted the logo to work in various sizes and with various color schemes, which is why there was a focus put on simplicity.</p>
+        <img src="assets/images/capsulelogos.png" alt="Bar Go" id="logo-padding" />
+			</div>
+		</div>
+	</section>
 
-    <!-- COMPETITIVE ANALYSIS -->
-    <section class="cs-probsol">
-      <div class="one-half gray">
-        <div class="process-left">
-          <h4><span class="process-tag">Competitive analysis</span></h4>
-          <p>An analysis of market competitors Evernote, Google Keep and Quip found that Blocmarc&rsquo;s experience should be a sweet spot between Google Keep and Evernote. The intuitive interface and features of Keep combined with some of the Evernote utilities like web clipper could meet that goal without making the app feel bloated.</p>
-          <img src="../img/cs-blocmarc-icons.png" class="process-mugs">
-        </div>
-      </div>
-      <div class="one-half white">
-        <div class="process-right">
-          <h4><span class="process-tag">User personas</span></h4>
-          <p>Three users with distinct roles were interviewed about their motivations, goals and frustrations. Save and searcher Alex often forgets that note-taking apps are availble without a browser widget. Distributor Mary would like a checklist function that tracks her progress. Gatherer-sharer Liz needs storage for large documents.</p>
-          <img src="../img/cs-blocmarc-mugs.png" class="process-mugs">
-        </div>
-      </div>
-    </section>
+	<!-- WIREFRAMES/MOCKUPS -->
+	<section class="cs-probsol">
+		<div class="cs-gray fixed-mockup">
+			<div class="process-left">
+				<h4><span class="process-tag">Wireframes</span></h4>
+				<p>I created user stories and began developing the sitemap and lo-fidelity mockups on Balsamiq. After initial usability testing and feedback, I moved to high-fidelity mockups and created a clickable prototype for additional usability testing.</p>
+        <img src="assets/images/wireframes.png" alt="Capsule" id="wireframe-padding" />
+			</div>
+      <div class="project-link-wireframe">
+  			<a href="https://invis.io/UPE4UFECQ" target="blank"><p>wireframe details</p></a>
+  		</div>
+		</div>
+		<div class="cs-white fixed-mockup" id="fixed-mockup-small">
+			<div class="process-right">
+				<h4><span class="process-tag">Mockups</span></h4>
+				<p>After receiving user feedback from the usability tests, I made design improvements to button placements on various pages and ensured the user’s interaction with the site was as clear and efficient as possible. I then finalized the designs in Photoshop and began the HTML, CSS and Javascript development.</p>
+			</div>
+		<img src="assets/images/screenmockups.png" alt="Capsule" id="mockup-padding" />
+    <div class="project-link-wireframe">
+      <a href="https://invis.io/UPE4UFECQ" target="blank"><p>mockup details</p></a>
+    </div>
+  </div>
+	</section>
 
-    <!-- USER FLOWS -->
-    <section class="cs-white background-img" id="user-flows">
-      <div class="mobile-img">
-        <img src="../img/cs-blocmarc-flows-m.jpg">
-      </div>
-      <div class="container">
-        <div class="process-left float-box-right">
-          <h4><a href="https://drive.google.com/file/d/0B_5tZFQfaXkOQXk1WVpGc1RHRXc/view?usp=sharing" target="_blank" title="View flows"><span class="process-tag process-tag-link">User stories and flows</span></a></h4>
-          <p>Detailed paths for creating content, onboarding and signing in were detailed for new and returning users. This detailed information architecture served as a template for the creation of the site.</p>
-        </div>
-      </div>
-    </section>
+	<!-- PROTOTYPE -->
+	<section class="cs-gray" id="">
+		<div class="container">
+			<div class="process-left standalone-center">
+				<h4><span class="process-tag">Prototype</span></h4>
+        <p>After receiving user feedback from the usability tests, I made design improvements to button placements on various pages and ensured the user’s interaction with the site was as clear and efficient as possible. I then finalized the designs in Photoshop and began the HTML, CSS and Javascript development.</p>
+			</div>
+		</div>
+	</section>
 
-    <!-- BRANDING -->
-    <section class="cs-gray" id="">
-      <div class="container">
-        <h4><span class="process-tag">Branding</span></h4>
-        <div class="process-left standalone-left">
-          <p>Before jumping into the design and layout of the app, we established the overall look and feel of the brand. That included choosing fonts for headlines and body type &ndash; Roboto Slab and Catamaran. Roboto was chosen for its versatility as it has a mechanical skeleton but features friendly and open curves. The hard angles of the font align with boxes and toy building blocks, which give the type face a playful characteristic. We chose this red color scheme mostly to differentiate Blocmarc from its competitors. Evernote is Green, Dropbox is blue and Google Keep is yellow, so we wanted to stay away from those colors.</p>
-        </div>
-        <div class="one-half color-grid">
-          <p class="one-third color-box" style="background-color: #5e2c2d">#5e2c2d</p>
-          <p class="one-third color-box" style="background-color: #ab1c1f">#ab1c1f</p>
-          <p class="one-third color-box" style="background-color: #de2528">#de2528</p>
-          <p class="one-third color-box" style="background-color: #4ac1bd">#4ac1bd</p>
-          <p class="one-third color-box" style="background-color: #141414">#141414</p>
-          <p class="one-third color-box" style="background-color: #d1d3d4">#d1d3d4</p>
-        </div>
-      </div>
-    </section>
+	<div class="hero-prototype">
+		<img src="assets/images/Macbookmock.png" alt="A person navigating an app on their phone.">
+	</div>
+		<div class="project-link-proto">
+			<a href="https://invis.io/UPE4UFECQ" target="blank"><p>see the prototype</p></a>
+		</div>
 
-    <!-- LOGO -->
-    <section class="cs-white" id="">
-      <div class="img-container">
-        <img src="../img/cs-blocmarc-logo.jpg" id="logo-space">
-      </div>
-      <div class="container">
-        <div class="process-left standalone-center">
-          <h4><span class="process-tag">Logo</span></h4>
-          <p>The Blocmarc logo underwent many sketch iterations before the right icon was chosen. In the end, the current logo was selected for its versatility and modern feel. The combination of a bookmark and a box was just the right touch.</p>
-        </div>
-      </div>
-    </section>
+	<!-- CONCLUSION -->
+	<section class="cs-summary less-padding">
+		<div class="container">
+			<div class="center-text">
+				<h3><span class="underline-red">Conclusion</span></h3>
+				<div class="three-col">
+					<p class="three-graph">The final prototype was sent to users to gather additional feedback. The results showed that the users had a clear understanding of Capsule’s purpose and were able to group and create content with ease, collaborate with peers in an effective way and complete tasks with minimal effort.</p>
+					<p class="three-graph">This first project taught me a great deal as I was new to the world of design and coding. It illustrated the importance of planning and understanding the user and how to tailor the site to provide the best experience possible. I was surprised by some of the user feedback, which was helpful while designing the user flows and ultimately, the experience the users had with Capsule.</p>
+					<p class="three-graph">I learned to take the business requirements and user feedback and meld them into one comprehensive experience. I’ll take the lessons from this project and will tweak and develop them so the process continues evolving.</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- WIREFRAMES/MOCKUPS -->
-    <section class="cs-probsol">
-      <div class="one-half gray fixed-mockup">
-        <div class="process-left">
-          <h4><a href="https://invis.io/D29BC6MKE" target="_blank" title="View wireframes"><span class="process-tag process-tag-link">Wireframes</span></a></h4>
-          <p>Low-fidelity wireframes were created, tested and experienced many different iterations before graduating to the the high-fidelity stage. The first round of testing took place on Peek, where random users were asked to complete a specific set of tasks. A usability test script was then developed and three users completed video usability tests on a clickable prototype. Overall, the three users had a positive response to Blocmarc and were able to navigate the site smoothly. The biggest stumbling block was the &ldquo;Summary&rdquo; button on the My Account page. All three users were confused about where to go to view a summary of their Blocmarc account. So, we fixed that problem by changing the title of the button to &ldquo;My Account.&rdquo;</p>
-        </div>
-      </div>
-      <div class="one-half white fixed-mockup" id="fixed-mockup-small">
-        <div class="process-right">
-          <h4><a href="https://invis.io/WZBYP0SK8" target="_blank" title="View mockup"><span class="process-tag process-tag-link">Mockups</span></a></h4>
-          <p>After we were satisfied with the architecture of the site, we began the process of bringing Blocmarc to life. The first step was applying color and images to the layout. Computer and design-themed images were used for the backgrounds, and custom illustrations were made for the home page. Next, we built a clickable prototype on inVision that we used for multiple user testing experiments including UserTesting videos, five-second tests, nav tests and preference tests. The biggest discovery through testing was that users weren&rsquo;t finding the &ldquo;add&rdquo; button as quickly as we wanted. So, we transformed the add button into a circle with a &ldquo;+&rdquo; and placed it in the center of the screen. The results from the final nav test showed a 90% success rate:</p>
-        </div>
-      </div>
-      <div class="img-container">
-        <img src="../img/cs-blocmarc-mockups.png" id="mockups">
-      </div>
-      <div class="mobile-img" style="background-color: #f2f2f2;">
-        <img src="../img/cs-blocmarc-mockups-m.png">
-      </div>
-    </section>
+		<section class="container container-index work-grid">
+			<div class="container">
+				<h2>Keep Exploring</h2>
+				<div class="center-text footer-text">
+					<p>Additional case studies below:</p>
+				</div>
+			</div>
 
-    <!-- PROTOTYPE -->
-    <section class="cs-white" id="">
-      <div class="container">
-        <div class="process-left standalone-center">
-          <h4><a href="https://benjhoward.github.io/blocmarc/" target="_blank" title="View the prototype"><span class="process-tag process-tag-link">Prototype</span></a></h4>
-          <p>Finally, after we were confident in our user experience and interface, we began to build the html, css, javaScript and jQuery for Blocmarc. The building process stayed true to the final iteration of the design. We waded into unfamiliar javaScript territory with the sticky navbar, but through research, trial and error and dogged determination, we found a solution to our coding problems.</p>
-        </div>
-        <div class="nav-gif">
-          <img src="../img/cs-blocmarc-navbar.gif" id="">
-        </div>
-      </div>
-    </section>
+			<div class="footer-item one-third home-item" id="capsule-pic">
+				<div class="footer-hover">
+					<h6>Capsule</h6>
+					<p>UX/UI Design, Branding, Front-End Development<p>
+					<p class="describe">Collaboration Platform</p>
+					<ul class="footer-button">
+						<a href="capsule.html"><li>View Case Study</li></a>
+					</ul>
+				</div>
+				<a href="capsule.html"><div class="mobile-button">
+					<div class="mobile-label">
+						<p>Case study</p>
+					</div>
+				</div></a>
+			</div>
 
-    <!-- CONCLUSION -->
-    <section class="cs-summary less-padding">
-      <div class="container">
-        <div class="center-text">
-          <h3><span class="underline-white">Conclusion</span></h3>
-          <div class="three-col">
-            <p class="three-graph">Blocmarc accomplishes its goal to give users a quick and easy note-taking experience. Through many testing sessions and design iterations, we developed a user interface that is simple to use and easy to navigate.</p>
-            <p class="three-graph">User testing provided crucial feedback for our process. Being able to watch users actually use the site provided valuable insight that we immediately put into action, like the add and account buttons.</p>
-            <p class="three-graph">More importantly, we were validated by the positive responses to Blocmarc. Words used during testing like &ldquo;trustworthy,&rdquo; &ldquo;modern,&rdquo; &ldquo;clean&rdquo; and &ldquo;easy&rdquo; confirmed that our experience was a positive one for users.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+			<div class="footer-item one-third home-item" id="bargo-pic">
+				<div class="footer-hover">
+					<h6>Bar Go</h6>
+					<p>UX/UI Design, Branding</p>
+					<p class="describe">Social Mobile Application</p>
+					<ul class="footer-button">
+						<a href="bargo.html"><li>View Case Study</li></a>
+					</ul>
+				</div>
+				<a href="bargo.html"><div class="mobile-button">
+					<div class="mobile-label">
+						<p>Case study</p>
+					</div>
+				</div></a>
+			</div>
 
-    <!-- FOOTER -->
-    <footer class="cs-summary" style="padding-bottom: 0">
-      <nav class="cs-nav footer-nav">
-        <div class="container container-footer">
-          <ul class="one-half" id="footer-mobile-logo">
-            <li id="nav-logo"><img src="../img/bh-logo-footer.svg" height="43px" width="43px" alt="BH"/></li>
-          </ul>
-          <ul class="one-half nav-hover">
-            <li><a href="http://www.coroflot.com/benhoward" target="_blank"><i class="fa fa-briefcase"></i></a></li>
-            <li><a href="https://github.com/benjhoward" target="_blank"><i class="fa fa-github"></i></a></li>
-            <li><a href="https://twitter.com/BenHoward412" target="_blank"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="https://www.instagram.com/benhoward412/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="mailto:ben@benhoward.design"><i class="fa fa-envelope"></i></a></li>
+			<div class="footer-item one-third home-item" id="flyerwine-pic">
+				<div class="footer-hover">
+					<h6>Flyer Wine</h6>
+					<p>UX/UI Design, Branding, Front-End Development</p>
+					<p class="describe">E-commerce site for small batch wine</p>
+					<ul class="footer-button">
+						<a href="flyer.html"><li>View Case Study</li></a>
+					</ul>
+				</div>
+				<a href="flyer.html"><div class="mobile-button">
+					<div class="mobile-label">
+						<p>Case study</p>
+					</div>
+				</div></a>
+			</div>
+			</div>
+			</div>
 
-          </ul>
-        </div>
-      </nav>
+<!--         <img src="../img/link-magazine-1.jpg" class="one-third">
+				<img src="../img/link-breakthru-2.jpg" class="one-third">
+				<img src="../img/link-portfolio-1.jpg" class="one-third"> -->
+			</div>
+		</section>
 
-      <section class="bottom-footer">
-        <div class="container">
-          <h2>Want more?</h2>
-          <div class="center-text footer-text">
-            <p>Select a link below to read an additional case study or check out more work on my portfolio page:</p>
-          </div>
-        </div>
+		<!-- FOOTER -->
 
-        <div class="footer-pics">
-          <div class="footer-item one-third" id="mag-pic">
-            <div class="footer-hover">
-              <h6>Premium Magazines</h6>
-              <p>Art Direction, Design</p>
-              <ul class="footer-button">
-                <a href="magazines.html"><li>See Case Study</li></a>
-              </ul>
-            </div>
-            <a href="magazines.html"><div class="mobile-button">
-              <div class="mobile-label">
-                <p>Case study</p>
-              </div>
-            </div></a>
-          </div>
+		<footer class="cs-summary index-footer-case" style="padding-bottom: 0">
+			<nav class="cs-nav footer-nav">
+				<div class="container container-index container-footer">
+					<ul class="one-half" id="footer-mobile-logo">
+						<li id="nav-logo"><img src="assets/images/icon.png" height="20px" width="23px" alt="TK"/></li>
+					</ul>
+					<ul class="one-half nav-hover" id="footer-nav-logos">
+							<p>&copy 2017 Thomas Kurth | Designed &amp Developed by Thomas Kurth</p>
+					</ul>
+					</div>
+				</div>
+			</nav>
+		</footer>
 
-          <div class="footer-item one-third" id="breakthru-pic">
-            <div class="footer-hover">
-              <h6>Breakthru</h6>
-              <p>Design, Development</p>
-              <ul class="footer-button">
-                <a href="breakthru.html"><li>See Case Study</li></a>
-                <a href="https://newsinteractive.post-gazette.com/hip-hop/" target="_blank"><li>Visit Site</li></a>
-              </ul>
-            </div>
-            <a href="breakthru.html"><div class="mobile-button">
-              <div class="mobile-label">
-                <p>Case study</p>
-              </div>
-            </div></a>
-          </div>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-101343334-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 
-          <div class="footer-item one-third" id="portfolio-pic">
-            <div class="footer-hover">
-              <h6>Portfolio</h6>
-              <p>Design, Development, Art Direction</p>
-              <ul class="footer-button">
-                <a href="../index.html"><li>ben howard</li></a>
-                <a href="http://www.coroflot.com/benhoward" target="_blank"><li>Coroflot</li></a>
-              </ul>
-            </div>
-            <a href="../index.html"><div class="mobile-button">
-              <div class="mobile-label">
-                <p>Portfolio</p>
-              </div>
-            </div></a>
-          </div>
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+  <script src="assets/js/hamburger.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
 
-  <!--         <img src="../img/link-magazine-1.jpg" class="one-third">
-          <img src="../img/link-breakthru-2.jpg" class="one-third">
-          <img src="../img/link-portfolio-1.jpg" class="one-third"> -->
-        </div>
-      </section>
-    </footer>
+  <!-- js -->
+  <script src="assets/js/jquery-1.9.1.min.js"></script>
+  <script src="assets/js/modernizr.js"></script>
+  <script>
+      $(document).ready(function(){
+          if (Modernizr.touch) {
+              // show the close overlay button
+              $(".close-overlay").removeClass("hidden");
+              // handle the adding of hover class when clicked
+              $(".img").click(function(e){
+                  if (!$(this).hasClass("hover")) {
+                      $(this).addClass("hover");
+                  }
+              });
+              // handle the closing of the overlay
+              $(".close-overlay").click(function(e){
+                  e.preventDefault();
+                  e.stopPropagation();
+                  if ($(this).closest(".img").hasClass("hover")) {
+                      $(this).closest(".img").removeClass("hover");
+                  }
+              });
+          } else {
+              // handle the mouseenter functionality
+              $(".img").mouseenter(function(){
+                  $(this).addClass("hover");
+              })
+              // handle the mouseleave functionality
+              .mouseleave(function(){
+                  $(this).removeClass("hover");
+              });
+          }
+      });
+  </script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-101343334-1', 'auto');
-      ga('send', 'pageview');
-    </script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-34160351-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
 
-  </body>
+
+</body>
 
 </html>
