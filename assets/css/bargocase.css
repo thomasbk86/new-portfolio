@@ -184,21 +184,16 @@ nav {
 	 font-weight: 700;
 }
 
-.hero {
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
 .hero img {
 	width: 100%;
 	display: block;
 }
 
 .hero-prototype img {
-	width: 100%;
+	width: 80%;
 	display: block;
-	background-color: #ececec;
-	/*padding-bottom: 35px;*/
+  margin: 0 auto;
+	padding-top: 15px;
 }
 
 .challenge {
