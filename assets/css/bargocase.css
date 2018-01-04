@@ -256,7 +256,6 @@ nav {
 	.intro {
 		display: grid;
 		grid-template-columns: minmax(100px, 175px) 1fr;
-		grid-gap: 20px;
 	}
 
 	.intro h1 {
@@ -481,7 +480,6 @@ nav {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
-		grid-gap: 10px;
 		background-color: #616161;
 		border: 10px solid #616161;
 	}
