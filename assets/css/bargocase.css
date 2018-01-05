@@ -196,6 +196,12 @@ nav {
 	padding-top: 15px;
 }
 
+.hero-prototype-BG img {
+	width: 100%;
+	display: block;
+  margin: 0 auto;
+}
+
 .challenge {
 	display: flex;
 	flex-wrap: wrap;
@@ -249,7 +255,6 @@ nav {
 /* intro */
 
 	.intro {
-		display: grid;
 		grid-template-columns: minmax(100px, 175px) 1fr;
 	}
 

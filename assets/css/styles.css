@@ -13,6 +13,22 @@ p {
   margin: 0;
 }
 
+p.whitep {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+p.grayp {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+p.brandingp {
+  width: 90%;
+}
+
 .challenge p {
   line-height: 50px;
 }
@@ -56,6 +72,11 @@ a {
   position: relative;
   top: 0;
   text-align: left;
+}
+
+p.processp {
+  text-align: center;
+  padding-top: 25px;
 }
 
 .container h2 {
@@ -369,6 +390,16 @@ nav {
   float: left;
 }
 
+.cs-gray-branding{
+  width: 100%;
+  height: auto;
+  display: block;
+  position: relative;
+  padding-bottom: 5%;
+  float: left;
+  background-color: #E4E8E7;
+}
+
 .cs-summary-mock {
   width: 100%;
   height: auto;
@@ -401,7 +432,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
   padding-top: 40px;
 }
 
-.cs-summary h1, h2 {
+.cs-summary h1 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 0px;
+  letter-spacing: .25px;
+  padding-bottom: 14px;
+}
+
+.cs-summary h2 {
   font-size: 40px;
   font-weight: 400;
   color: #333;
@@ -419,7 +461,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 }
 
 .header-h1 h1{
-  padding-top: 6%;
+  padding-top: 10%;
+}
+
+@media(min-width: 1250px) {
+  .header-h1 h1 {
+    padding-top: 10%;
+  }
+}
+
+h1.introheader {
+  line-height: 32px;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 20px;
+  width: 60%;
 }
 
 @media(max-width: 1024px) {
@@ -428,12 +484,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
   }
 
   .cs-summary h1 {
-    font-size: 2.8rem;
-    padding-bottom: 30px;
-    line-height: 2.4rem;
+    padding-bottom: 14px;
+    padding-top: 0px;
   }
-  .header-h1 h1 {
-    padding-top: 50px;
+
+  h1.introheader {
+    line-height: 30px;
+    text-align: left;
+    padding: 0;
+    padding-bottom: 20px;
+    width: 70%;
   }
   .top-dek {
     padding-bottom: 18px !important;
@@ -442,14 +502,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', end
 
 @media(max-width: 700px) {
   .cs-summary h1 {
-    font-size: 2.8rem;
+    font-size: 30px;
     padding-bottom: 30px;
     line-height: 2.4rem;
-    text-align: center;
+    text-align: left;
   }
 
   .center-text p {
-    text-align: center;
+    text-align: left;
   }
   .top-dek {
     padding-bottom: 4px !important;
@@ -487,7 +547,6 @@ h3 {
   font-weight: 700;
   font-size: 18px;
   letter-spacing: 1px;
-  margin-bottom: 38px;
 }
 
 .center-text h3 {
@@ -495,7 +554,6 @@ h3 {
   padding-bottom: 3px;
   font-weight: 700;
   letter-spacing: 1px;
-  margin-bottom: 38px;
   font-size: 36px;
 }
 
@@ -506,7 +564,7 @@ h3 {
 }
 
 .center-text p {
-  width: 60%;
+  width: 70%;
 }
 
 .header-text p {
@@ -550,8 +608,8 @@ main {
 
 @media(max-width: 1024px) {
   main {
-    top: 365px;
-    padding-top: 32px;
+    top: 335px;
+    padding-top: 0px;
   }
 }
 
@@ -579,11 +637,6 @@ main {
   display: block;
   position: relative;
   float: left;
-}
-
-.gray {
-  background-color: #e6e6e6;
-  padding: 5% 0;
 }
 
 .probsol-left, .process-left {
@@ -655,7 +708,7 @@ main {
 }
 
 #flyer-wireframe-padding {
-  width: 85%;
+  width: 70%;
   display: block;
   margin: 0 auto;
 }
@@ -708,11 +761,9 @@ main {
   color: #E85A4F;
   padding-top: 42px;
   text-align: center;
-  padding-left: 25px;
 }
 
 .process-tag {
-  padding: 8px 16px;
   line-height: 0;
   font-weight: 500;
   color: #333;
@@ -799,6 +850,15 @@ h5 {
 .process-left p, .process-right p {
   float: left;
   padding: 36px 0;
+}
+
+p.researchp {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: .5px;
+  margin: 0;
+  padding-top: 15px;
 }
 
 .project-link-proto p {
@@ -983,6 +1043,7 @@ h5 {
 
 .icon-grid {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .color-box {
@@ -1128,7 +1189,7 @@ h5 {
 
 .three-col {
   float: left;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .three-col p {
@@ -1136,7 +1197,7 @@ h5 {
   margin: 0 20px;
   display: inline-block;
   vertical-align: top;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 1030px) {
@@ -1171,12 +1232,12 @@ h5 {
 h2 {
   font-size: 60px;
   font-weight: 500;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
-
+/*
 .introcopy h2 {
   padding-bottom: 50px;
-}
+}*/
 
 .nav-hover p {
   font-size: .7em;
@@ -1538,14 +1599,6 @@ h6 {
   color: #8e8d8d
 }
 
-.ben-pic {
-  width: 100%;
-  height: 397px;
-  background-image: url(../img/ben-portrait-h.jpg);
-  background-size: cover;
-  background-position: right;
-}
-
 .email-link a {
   text-decoration: none;
   color: #e0be4f;
@@ -1577,18 +1630,13 @@ h6 {
   .bio-items{
     width: 100%;
   }
-  .ben-pic {
-    height: 270px;
-  }
 }
 
 @media(max-width: 700px) {
   .bio-text, .bio-rail {
     width: 100%;
   }
-  .ben-pic {
-    height: 300px;
-  }
+
   .margin-top {
     margin-top: 116px;
   }
@@ -1650,7 +1698,7 @@ h6 {
 }
 
 .contacthome h1 {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 400;
   color: #333;
 }
@@ -1663,7 +1711,7 @@ h6 {
 
 .contacthome h5{
   color: #8e8d8a;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 100;
   margin-top: -20px;
 }
@@ -1682,10 +1730,10 @@ h6 {
 
 @media(max-width: 380px) {
 .contacthome h1 {
-  font-size: 40px;
+  font-size: 30px;
   }
   .contacthome h5 {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
@@ -1773,9 +1821,28 @@ h6 {
      .nav-hover p {
        font-size: .5em;
      }
+     h1.introheader {
+       width: 100%
+     }
+     main {
+       top: 370px;
+     }
+     .cs-summary h1 {
+       font-size: 29px;
+     }
+
   }
 
+  @media (max-width: 414px) {
+    main {
+      top: 35px;
+    }
+
   @media (max-width: 375px) {
+
+    main {
+      top: 45px;
+    }
      .nav-hover p {
        font-size: .44em;
      }
@@ -1830,13 +1897,9 @@ h6 {
   padding-left: 10px;
   padding-bottom: 30px;
 }
-.one-fourth h5 {
-  padding-left: 15px;
-}
 
 .one-fourth p {
-  width: 70%;
-  padding-left: 15px;
+  width: 100%;
 }
 
 

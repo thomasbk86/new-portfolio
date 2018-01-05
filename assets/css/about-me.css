@@ -108,7 +108,7 @@ a {
 /* line 33, ../sass/_typography.scss */
 h1 {
   font-size: 3.25em;
-  color: #E85A4F;
+  color: white;
   font-weight: 700;
 }
 
@@ -505,7 +505,6 @@ nav .menu-bar li:hover {
 }
 /* line 137, ../sass/_overrides.scss */
 .hero .hero-overlay {
-  background-color: rgba(34, 49, 63, 0.6);
   height: 580px;
   margin-top: -50px;
 }
@@ -525,7 +524,6 @@ nav .menu-bar li:hover {
 /* line 158, ../sass/_overrides.scss */
 .hero .hero-copy h2 {
   color: white;
-  padding: 20px 0;
   line-height: 1;
 }
 /* line 164, ../sass/_overrides.scss */
@@ -564,7 +562,7 @@ nav .menu-bar li:hover {
   }
   /* line 185, ../sass/_overrides.scss */
   .hero#about-page .about-block {
-    padding-top: 425px;
+    padding-top: 400px;
   }
   .hero .hero-overlay {
     height: 480px;
@@ -591,7 +589,12 @@ nav .menu-bar li:hover {
   }
   /* line 191, ../sass/_overrides.scss */
   .hero#about-page .about-block {
-    padding-top: 225px;
+    padding-top: 280px;
+    width: 80%;
+  }
+
+  .about-block h1 {
+    padding-bottom: 5px;
   }
   /* line 194, ../sass/_overrides.scss */
   .hero#about-page h2 {
@@ -635,6 +638,13 @@ nav .menu-bar li:hover {
   font-size: .9em;
   line-height: 1.5;
   font-weight: 500;
+  width: 80%;
+}
+
+@media screen and (min-width: 1024px) {
+  .hero#about-page h2 {
+    width: 70%;
+  }
 }
 /* line 205, ../sass/_overrides.scss */
 .hero#driftlist-hero {
