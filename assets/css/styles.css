@@ -689,7 +689,15 @@ main {
   padding-bottom: 36px;
   width: 80%;
 }
+
 #mockup-padding {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+#fwmockup-padding {
   width: 90%;
   display: block;
   margin: 0 auto;
@@ -701,10 +709,28 @@ main {
   margin: 0 auto;
 }
 
+@media all and (max-width: 1400px) {
+  #capsule-wire-framemobile {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #wireframe-padding {display: none;}
+    #capsule-wireframe-mobile {display: block; width: 100%; margin: 0 auto;padding: 25px;}
+}
+
 #bg-wireframe-padding {
   width: 100%;
   display: block;
   margin: 0 auto;
+}
+
+@media all and (max-width: 1400px) {
+  #bgwireframemobile {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #bg-wireframe-padding {display: none;}
+    #bgwireframemobile {display: block; width: 100%; margin: 0 auto;padding-top: 25px;}
 }
 
 #flyer-wireframe-padding {
@@ -712,6 +738,82 @@ main {
   display: block;
   margin: 0 auto;
 }
+
+@media all and (max-width: 1400px) {
+  #fwmockupmobile {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #flyer-wireframe-padding {display: none;}
+    #fwmockupmobile {display: block; width: 100%; margin: 0 auto;padding-top: 25px;}
+}
+
+#capsuleuserflow {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1400px) {
+  #capsuleuserflowmobile {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #capsuleuserflow {display: none;}
+    #capsuleuserflowmobile {display: block; width: 100%; margin: 0 auto;}
+}
+
+#capsule-personas {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1400px) {
+  #capsulepersona1 {display: none;}
+  #capsulepersona2 {display: none;}
+  #capsulepersona3 {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #capsule-personas {display: none;}
+    #capsulepersona1 {display: block; width: 54%; margin: 0 auto;}
+    #capsulepersona2 {display: block; width: 54%; margin: 0 auto;}
+    #capsulepersona3 {display: block; width: 54%; margin: 0 auto;}
+}
+#bguserflow {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1400px) {
+  #bguserflowmobile {display: none;}
+}
+
+@media all and (max-width: 499px) {
+    #bguserflow {display: none;}
+    #bguserflowmobile {display: block; width: 100%; margin: 0 auto;}
+}
+
+#bgpersona-padding {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media all and (max-width: 1400px) {
+  #bgpersona1 {display: none;}
+  #bgpersona2{display: none;}
+  #bgpersona3 {display: none;
+}
+
+@media all and (max-width: 499px) {
+    #bgpersona-padding {display: none;}
+    #bgpersona1 {display: block; width: 67%; margin: 0 auto;}
+    #bgpersona2 {display: block; width: 67%; margin: 0 auto;}
+    #bgpersona3 {display: block; width: 67%; margin: 0 auto;}
+}
+
 /* PROCESS SECTION */
 
 .parallax {
@@ -961,17 +1063,39 @@ p.researchp {
   background-image: url(assets/images/screenmockups.png);
 }
 
-.user-flows {
+#persona-padding {
+  padding-bottom: 36px;
+  width: 60%;
+}
+
+@media all and (max-width: 1400px) {
+  #wine1 {display: none;}
+  #wine2 {display: none;}
+  #wine3 {display: none;
+}
+
+@media all and (max-width: 499px) {
+    #persona-padding {display: none;}
+    #wine1 {display: block; width: 54%; margin: 0 auto;}
+    #wine2 {display: block; width: 54%; margin: 0 auto;}
+    #wine3 {display: block; width: 54%; margin: 0 auto;}
+}
+
+#fwuserflow {
   width: 80%;
   padding-top: 25px;
   display: block;
   margin: 0 auto;
 }
 
-#inspiration {
-  background-image: url(../img/cs-breakthru-inspiration.jpg);
+@media all and (max-width: 1400px) {
+  #fwuserflowmobile {display: none;}
 }
 
+@media all and (max-width: 499px) {
+    #fwuserflow {display: none;}
+    #fwuserflowmobile {display: block; width: 100%; margin: 0 auto;}
+}
 /*.float-box-right {
   padding: 40px;
   box-shadow: 0 0 60px rgba(0,0,0,.25);
@@ -1029,7 +1153,7 @@ p.researchp {
 @media (max-width: 1000px) {
   .standalone-center {
     width: 100%;
-    text-align: left;
+    padding-top: 50px;
   }
   .standalone-left, .standalone-right {
     width: 100%;
@@ -1072,7 +1196,6 @@ p.researchp {
     width: 30%;
   }
   .color-grid {
-    float: left;
     margin-left: -10px;
     margin-bottom: -10px;
     width: 110%
@@ -1093,10 +1216,10 @@ p.researchp {
   }
 
   .color-grid {
-    float: left;
     margin-left: -10px;
     margin-bottom: -10px;
-    width: 80%
+    width: 80%;
+    padding-bottom: 25px;
   }
   .icon-grid {
     float: left;
@@ -1886,6 +2009,12 @@ h6 {
      }
      #fixed-mockup-small {
        height: 580px;
+     }
+
+     #fwmockup-padding {
+       width: 80%;
+       display: block;
+       margin: 0 auto;
      }
   }
 
