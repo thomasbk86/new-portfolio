@@ -710,10 +710,10 @@ main {
 }
 
 @media all and (max-width: 1400px) {
-  #capsule-wire-framemobile {display: none;}
+  #capsule-wireframe-mobile {display: none;}
 }
 
-@media all and (max-width: 499px) {
+@media all and (max-width: 1024px) {
     #wireframe-padding {display: none;}
     #capsule-wireframe-mobile {display: block; width: 100%; margin: 0 auto;padding: 25px;}
 }
@@ -799,6 +799,7 @@ main {
 #bgpersona-padding {
   width: 70%;
   margin: 0 auto;
+  display: block;
 }
 
 @media all and (max-width: 1400px) {
@@ -1066,6 +1067,8 @@ p.researchp {
 #persona-padding {
   padding-bottom: 36px;
   width: 60%;
+  display: block;
+  margin: 0 auto;
 }
 
 @media all and (max-width: 1400px) {
@@ -1161,7 +1164,6 @@ p.researchp {
 }
 
 .color-grid {
-  float: right;
   padding-top: 36px;
 }
 
@@ -1810,6 +1812,10 @@ h6 {
   .mobile-label {
     display: block;
   }
+  .container h2 {
+    padding-top: 25px;
+  }
+
 }
 /* Contact & Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -1837,6 +1843,10 @@ h6 {
   font-size: 1.3em;
   font-weight: 100;
   margin-top: -20px;
+}
+
+h5.aboutmecontact {
+  font-size: 20px;
 }
 
 @media(max-width: 760px) {
@@ -1953,6 +1963,9 @@ h6 {
      .cs-summary h1 {
        font-size: 29px;
      }
+     .container h2 {
+       padding-top: 0px;
+     }
 
   }
 
@@ -1960,6 +1973,11 @@ h6 {
     main {
       top: 35px;
     }
+    .color-grid {
+      display: block;
+      margin: 0 auto;
+    }
+  }
 
   @media (max-width: 375px) {
 
@@ -2002,6 +2020,11 @@ h6 {
        line-height: 16px;
      }
 
+     .color-grid {
+       display: block;
+       margin: 0 auto;
+     }
+
      .compete-icons {
        padding-bottom: 10px;
        margin-left: auto;
@@ -2019,7 +2042,8 @@ h6 {
   }
 
 .color-grid {
-  padding-left: 10px;
+  display: block;
+  margin: 0 auto;
 }
 
 .icon-grid {
