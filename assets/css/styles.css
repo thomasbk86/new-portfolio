@@ -955,6 +955,11 @@ h5 {
   padding: 36px 0;
 }
 
+p.brand {
+  padding: 0;
+  float: none;
+}
+
 p.researchp {
   font-size: 18px;
   font-weight: 300;
@@ -1240,7 +1245,7 @@ p.researchp {
 }
 
 #fixed-mockup-small {
-  height: 910px;
+  height: 810px;
 }
 
 #mockups {
@@ -1444,13 +1449,19 @@ h2 {
     display: none;
   }
   #fixed-mockup-small {
-    height: 840px;
+    height: 740px;
   }
 }
 
 @media(max-width: 1000px) {
     .footer-text p {
     width: 85%
+  }
+}
+
+@media(max-width: 768px) {
+  #fixed-mockup-small {
+    height: 640px;
   }
 }
 
@@ -2047,7 +2058,6 @@ h5.aboutmecontact {
 }
 
 .icon-grid {
-  padding-left: 10px;
   padding-bottom: 30px;
 }
 
